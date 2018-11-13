@@ -16,7 +16,7 @@ title: "Image Portfolio"
 &nbsp;
 &nbsp;
 
-## Rose Colored Glasses (Lab 3)
+## Rose Colored Glasses
 This function modifies a picture making it more pink tinted.
 
 It works by traversing each pixel in the image and recoloring the pixel component colors as follows:

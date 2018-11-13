@@ -3,5 +3,5 @@
 2. deploy to gh-pages:
 `git subtree push --prefix site origin gh-pages`
 
-### ghpages URL: https://mrobertson-csumb.github.io/250-image-portfolio
+### ghpages URL: https://mrobertson-csumb.github.io/205-image-portfolio
 
