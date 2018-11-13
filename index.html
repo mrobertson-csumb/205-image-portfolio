@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Image Portfolio</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">MBR's Image Portfolio</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Image Portfolio</h1>
+
+</div>
+
+
+<p><img src="res/csumb_logo_black.png" alt="CSUMB Logo" /></p>
+<pre><code>  __  __         _    _    _                       ____         _                  _
+ |  \/  |  __ _ | |_ | |_ | |__    ___ __      __ |  _ \  ___  | |__    ___  _ __ | |_  ___   ___   _ __
+ | |\/| | / _` || __|| __|| &#39;_ \  / _ \\ \ /\ / / | |_) |/ _ \ | &#39;_ \  / _ \| &#39;__|| __|/ __| / _ \ | &#39;_ \
+ | |  | || (_| || |_ | |_ | | | ||  __/ \ V  V /  |  _ &lt;| (_) || |_) ||  __/| |   | |_ \__ \| (_) || | | |
+ |_|  |_| \__,_| \__| \__||_| |_| \___|  \_/\_/   |_| \_\\___/ |_.__/  \___||_|    \__||___/ \___/ |_| |_|</code></pre>
+<div id="this-is-a-portfolio-of-image-manipulation-techniques-presented-in-cst-205" class="section level1">
+<h1>This is a portfolio of image manipulation techniques presented in CST 205</h1>
+<p>   </p>
+<div id="rose-colored-glasses-lab-3" class="section level2">
+<h2>Rose Colored Glasses (Lab 3)</h2>
+<p>This function modifies a picture making it more pink tinted.</p>
+<p>It works by traversing each pixel in the image and recoloring the pixel component colors as follows:</p>
+<ul>
+<li>75% red</li>
+<li>50% green</li>
+<li>50% blue</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/i-rose.jpg" alt="rose before" /></td>
+<td align="center"><img src="res/o-rose.jpg" alt="rose after" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="negative" class="section level2">
+<h2>Negative</h2>
+<p>This function modifies a picture producing a negative of that image.</p>
+<p>It works by traversing each pixel in the image and inverting each of its component colors.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/i-neg.jpg" alt="neg before" /></td>
+<td align="center"><img src="res/o-neg.jpg" alt="neg after" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="better-black-and-white" class="section level2">
+<h2>Better Black and White</h2>
+<p>This function modifies a picture producing a black and white version of that image.</p>
+<p>It works by traversing each pixel in the image and setting every color component for that pixel to the value corresponding to the following formula:</p>
+<ul>
+<li>29.9% red</li>
+<li>11.4% blue</li>
+<li>58.7% green</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/i-bnw.jpg" alt="bnw before" /></td>
+<td align="center"><img src="res/o-bnw.jpg" alt="bnw after" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="bottom-to-top-mirror" class="section level2">
+<h2>Bottom to Top Mirror</h2>
+<p>This function modifies a picture producing a mirrored image of the bottom half placed on the top half</p>
+<p>It works by traversing each pixel in the bottom half of the image and setting the corresponding top pixel’s color to match it</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/i-mhb.jpg" alt="mhb before" /></td>
+<td align="center"><img src="res/o-mhb.jpg" alt="mhb after" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="shrink" class="section level2">
+<h2>Shrink</h2>
+<p>This function creates a new picture with half the original picture’s width and height</p>
+<p>It works by measuring the original’s width and height, then creating a blank image with half those dimensions. From there, pixels are copied from the original picture to the new one from every other row and column in the original.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">: <img src="res/i-half.jpg" alt="half before" /></td>
+<td align="center">: <img src="res/o-half.jpg" alt="half after" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="collage" class="section level2">
+<h2>Collage</h2>
+<p>This function creates a new picture and utilizes several other functions to make a mashup of other pictures</p>
+<p>It works by calling other functions and placing the returned contents on a ‘canvas’ picture</p>
+<p>The difficulty in creating this function was maintaining a measure of covered area in the picture to ensure the entire canvas was consumed.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">collage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/o-collage.jpg" alt="collage" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="red-eye-reduction" class="section level2">
+<h2>Red Eye Reduction</h2>
+<p>This function modifies a picture producing a reduced red-eye effect from camera flash</p>
+<p>It works by traversing each pixel in and measuring how close to the red color it is. If the pixel’s color is close to red it brings the green value up to match it.</p>
+<p>It was difficult to find a threshold value that would not ruin the rest of the image</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/i-rer.jpg" alt="rer before" /></td>
+<td align="center"><img src="res/o-rer.jpg" alt="rer after" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="art-i-fy" class="section level2">
+<h2>Art-i-fy</h2>
+<p>This function modifies a picture producing a a posterized (color density reduction) effect.</p>
+<p>It works by taking the values for each pixel’s color components and bucketing them into groups of single values. For example, if the red is in the range 63 to 128, the value would be set to 95.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/i-afy.jpg" alt="afy before" /></td>
+<td align="center"><img src="res/o-afy.jpg" alt="afy after" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="chroma-key" class="section level2">
+<h2>Chroma Key</h2>
+<p>This function takes two pictures an merges them by taking the colors from the foreground image that match the specified color (green here) and replacing them with the background image.</p>
+<p>It works by checking each pixel’s color against the specified color. If the color matches within the threshold, that color is replaced with the color in the corresponding pixel within the background image.</p>
+<p>This was another case where finding the correct threshold can be difficult.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">source</th>
+<th align="center">target</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/i-ckf.jpg" alt="ckf foreground" /></td>
+<td align="center"><img src="res/i-ckb.jpg" alt="ckb background" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="center">merged</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/o-ckr.jpg" alt="merged" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="thanksgiving-card" class="section level2">
+<h2>Thanksgiving Card</h2>
+<p>This is another mashup function, similar to the collage one. This time it creates a fancy Thanksgiving day card.</p>
+<p>It works by using functions to merge images, as well as functions that write text to the image.</p>
+<p>One difficulty with completing this function is being able to precisely position text in the image. My team created a custom function that makes an perfectly sized image from a text so that placement is simple.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">thanksgiving card</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/o-card.jpg" alt="card" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+<div id="line-drawing" class="section level2">
+<h2>Line Drawing</h2>
+<p>This line drawing function takes an image and modifies it to be a black &amp; white image based on comparative luminosity with surrounding pixels.</p>
+<p>It works by checks each pixel’s luminosity with the ones below it and to its right. If the luminosity is within the threshold, the pixel is changed to black, otherwise it is white.</p>
+<p>One challenge with this function was that I see the bottom and border sides do not have the filter applied. Since the instructions did not say they should be, I left it alone.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="res/i-line.jpg" alt="line before" /></td>
+<td align="center"><img src="res/o-line.jpg" alt="line after" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
