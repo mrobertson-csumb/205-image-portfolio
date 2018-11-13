@@ -1,0 +1,19 @@
+name: "MBR's Image Portfolio"
+navbar:
+  title: "MBR's Image Portfolio"
+  left:
+    - text: "Home"
+      href: index.html
+
+
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    fig_caption: false
+
+output_dir: "../site"
+
+# ghpages URL: https://mrobertson-csumb.github.io/portfolio-site
+# to deploy to gh-pages"
+## git subtree push --prefix site origin gh-pages
